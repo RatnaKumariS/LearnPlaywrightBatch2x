@@ -31,3 +31,11 @@ if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
 } else if (year > 80) {
     console.log("Not Leap year" + year);
 }
+
+let expected = "login";
+let actual = "login";
+if (expected === actual) {
+    console.log("Passed");
+} else {
+    console.log("Failed");
+}
